@@ -13,4 +13,4 @@ It works because a tapGestureRecognizer is added to the headerView, so the heade
 In the headerView selection callback method `tableView:didSelectHeaderView:inSection:` and `tableView:didSelectHeaderView:inSection:`, refresh the section in where the headerView lays, returning the corresponding number of row of the section, done!
 
 it works like:
-(http://img.blog.csdn.net/20160229223617510)
+![](https://raw.githubusercontent.com/kenny1269/UITableViewDelegate_HeaderViewSelection/master/gif.gif)
