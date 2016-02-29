@@ -14,7 +14,6 @@
 		F7A78A2C1C8180CC0004FF9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A78A2A1C8180CC0004FF9E /* LaunchScreen.xib */; };
 		F7A78A381C8180CC0004FF9E /* TableViewHeaderTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A78A371C8180CC0004FF9E /* TableViewHeaderTestTests.m */; };
 		F7A78A431C8180ED0004FF9E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A78A421C8180ED0004FF9E /* TableViewController.m */; };
-		F7BFAF7B1C82ED38009A4AAB /* SubTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BFAF7A1C82ED38009A4AAB /* SubTableView.m */; };
 		F7BFAF801C834DAA009A4AAB /* UITableView+HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BFAF7F1C834DAA009A4AAB /* UITableView+HeaderView.m */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +41,6 @@
 		F7A78A371C8180CC0004FF9E /* TableViewHeaderTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderTestTests.m; sourceTree = "<group>"; };
 		F7A78A411C8180ED0004FF9E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		F7A78A421C8180ED0004FF9E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		F7BFAF791C82ED38009A4AAB /* SubTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableView.h; sourceTree = "<group>"; };
-		F7BFAF7A1C82ED38009A4AAB /* SubTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTableView.m; sourceTree = "<group>"; };
 		F7BFAF7D1C834D3F009A4AAB /* UITableViewDelegate_HeaderViewSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDelegate_HeaderViewSelection.h; sourceTree = "<group>"; };
 		F7BFAF7E1C834DAA009A4AAB /* UITableView+HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HeaderView.h"; sourceTree = "<group>"; };
 		F7BFAF7F1C834DAA009A4AAB /* UITableView+HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HeaderView.m"; sourceTree = "<group>"; };
@@ -92,8 +89,6 @@
 				F7A78A201C8180CC0004FF9E /* AppDelegate.m */,
 				F7A78A411C8180ED0004FF9E /* TableViewController.h */,
 				F7A78A421C8180ED0004FF9E /* TableViewController.m */,
-				F7BFAF791C82ED38009A4AAB /* SubTableView.h */,
-				F7BFAF7A1C82ED38009A4AAB /* SubTableView.m */,
 				F7BFAF7E1C834DAA009A4AAB /* UITableView+HeaderView.h */,
 				F7BFAF7F1C834DAA009A4AAB /* UITableView+HeaderView.m */,
 				F7BFAF7D1C834D3F009A4AAB /* UITableViewDelegate_HeaderViewSelection.h */,
@@ -231,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7BFAF7B1C82ED38009A4AAB /* SubTableView.m in Sources */,
 				F7A78A211C8180CC0004FF9E /* AppDelegate.m in Sources */,
 				F7A78A1E1C8180CC0004FF9E /* main.m in Sources */,
 				F7BFAF801C834DAA009A4AAB /* UITableView+HeaderView.m in Sources */,
